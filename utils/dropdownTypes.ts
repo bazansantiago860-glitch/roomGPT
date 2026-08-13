@@ -1,30 +1,27 @@
 export type themeType =
-  | "Modern"
-  | "Vintage"
-  | "Minimalist"
-  | "Professional"
-  | "Tropical";
+  | "Mármol Carrara Blanco"
+  | "Calacatta Gold"
+  | "Negro Marquina"
+  | "Travertino Romano";
 
 export type roomType =
-  | "Living Room"
-  | "Dining Room"
-  | "Bedroom"
-  | "Bathroom"
-  | "Office"
-  | "Gaming Room";
+  | "Living / Estar"
+  | "Dormitorio"
+  | "Baño"
+  | "Cocina"
+  | "Oficina";
 
 export const themes: themeType[] = [
-  "Modern",
-  "Minimalist",
-  "Professional",
-  "Tropical",
-  "Vintage",
+  "Mármol Carrara Blanco",
+  "Calacatta Gold",
+  "Negro Marquina",
+  "Travertino Romano",
 ];
+
 export const rooms: roomType[] = [
-  "Living Room",
-  "Dining Room",
-  "Office",
-  "Bedroom",
-  "Bathroom",
-  "Gaming Room",
+  "Living / Estar",
+  "Dormitorio",
+  "Baño",
+  "Cocina",
+  "Oficina",
 ];
